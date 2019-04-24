@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/error_icon_width"
+        android:layout_height="@dimen/error_icon_width"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/error_icon_top"
+        android:background="#FFFFFF"
+        android:src="@drawable/warning" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="63px"
+        android:layout_gravity="center"
+        android:layout_marginTop="36px"
+        android:background="#FFFFFF"
+        android:text="@string/crypt_keeper_failed_title"
+        android:textColor="#000000"
+        android:textSize="@dimen/error_title_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_marginStart="@dimen/error_start_width"
+        android:layout_marginTop="78px"
+        android:background="#FFFFFF"
+        android:text="@string/crypt_keeper_error_reason"
+        android:textColor="#000000"
+        android:textSize="@dimen/error_reason_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180px"
+        android:layout_marginStart="76px"
+        android:layout_marginTop="45px"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:text="@string/crypt_keeper_error_reason1"
+            android:textColor="#333333"
+            android:textSize="@dimen/error_reason_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_marginStart="@dimen/error_start_width"
+        android:layout_marginTop="63px"
+        android:background="#FFFFFF"
+        android:text="@string/crypt_keeper_error_operat"
+        android:textColor="#000000"
+        android:textSize="@dimen/error_reason_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120px"
+        android:layout_marginStart="76px"
+        android:layout_marginTop="45px"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:text="@string/crypt_keeper_error_operat1"
+            android:textColor="#333333"
+            android:textSize="@dimen/error_reason_size" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/factory_reset"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_marginStart="@dimen/error_start_width"
+        android:layout_marginTop="96px"
+        android:layout_marginEnd="@dimen/error_start_width"
+        android:background="#108EE9"
+        android:text="@string/crypt_keeper_error_button"
+        android:textColor="#FFFFFF"
+        android:textSize="42px" />
+
+</LinearLayout>

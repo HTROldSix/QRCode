@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QR Code</string>
+    <string name="Camera_test1" translatable="false">test1</string>
+    <string name="Camera_test2" translatable="false">test2</string>
+    <string name="pass">PASS</string>
+    <string name="fail">FAIL</string>
+    <string name="item_test">Item_test</string>
+    <string name="test_results">Test Results</string>
+    <string name="test_results_title">Test Results</string>
+    <string name="TD_code">QR_code</string>
+    <string name="TD_results">QR Result</string>
+    <string name="TD_result_fail">QR Result FAIL</string>
+    <string name="td_time_out">QR TimeOut</string>
+    <string name="item_result" formatted="false" translatable="false">%d %s</string>
+    <string name="result">Test result: %s, automatically exit after three seconds</string>
+    <string name="toast">%d %s,again after 1s</string>
+    <string name="restart">restart</string>
+
+    <string name="crypt_keeper_failed_title">Encryption unsuccessful</string>
+    <string name="crypt_keeper_error_reason">The reason for the failure may be: </string>
+    <string name="crypt_keeper_error_reason1">1. Midway network interruption;\n2. The system installed an unauthorized application;\n3. Other unknown issues...</string>
+    <string name="crypt_keeper_error_operat">You can: </string>
+    <string name="crypt_keeper_error_operat1">1. Reconnect to the network for upgrade;\n2. Try to delete an unauthorized application. </string>
+    <string name="crypt_keeper_error_button">Connected, next step </string>
+    <string name="crypt_keeper_progress_title">Financial-grade face-paying device is being encrypted and protected...</string>
+    <string name="crypt_keeper_progress_status" translatable="false"><xliff:g id="PERCENT">^1</xliff:g>%</string>
+</resources>

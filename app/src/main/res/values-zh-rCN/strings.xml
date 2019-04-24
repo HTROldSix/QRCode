@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">扫码</string>
+    <string name="pass">成功</string>
+    <string name="fail">失败</string>
+    <string name="item_test">单项测试</string>
+    <string name="test_results">测试结果</string>
+    <string name="test_results_title">测试结果</string>
+    <string name="TD_code">二维码</string>
+    <string name="TD_results">扫描结果</string>
+    <string name="TD_result_fail">扫描失败</string>
+    <string name="td_time_out">扫描超时</string>
+    <string name="toast">第 %d 格%s,1s后开始下一个测试</string>
+    <string name="result">测试结果：%s, 三秒后自动退出</string>
+    <string name="restart">重测</string>
+
+    <string name="crypt_keeper_failed_title">加密失败</string>
+    <string name="crypt_keeper_error_reason">失败的原因可能是：</string>
+    <string name="crypt_keeper_error_reason1">1.中途网络中断；\n2.系统安装了未经授权的应用；\n3.其他未知问题…</string>
+    <string name="crypt_keeper_error_operat">您可以：</string>
+    <string name="crypt_keeper_error_operat1">1.重新连接网络进行升级；\n2.尝试删除未经授权的应用。</string>
+    <string name="crypt_keeper_error_button">已连接，下一步</string>
+    <string name="crypt_keeper_progress_title">金融级刷脸支付设备，正在加密保护中…</string>
+</resources>

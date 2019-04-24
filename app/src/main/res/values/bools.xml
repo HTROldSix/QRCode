@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="touchPanel">true</bool>
+    <bool name="lcd">true</bool>
+    <bool name="gps">true</bool>
+    <bool name="battery">true</bool>
+    <bool name="temperature">false</bool>
+    <bool name="key">true</bool>
+    <bool name="loundSpeaker">true</bool>
+    <bool name="earphone">true</bool>
+    <bool name="microphone">true</bool>
+    <bool name="microphone2">false</bool>
+    <bool name="headset">true</bool>
+    <bool name="wiFi">true</bool>
+    <bool name="bluetooth">true</bool>
+    <bool name="vibrator">true</bool>
+    <bool name="telephony">true</bool>
+    <bool name="backLed">true</bool>
+    <bool name="memory">true</bool>
+    <bool name="gravitySensor">true</bool>
+    <bool name="lightSensor">true</bool>
+    <bool name="distanceSensor">true</bool>
+    <bool name="sdCard">true</bool>
+    <bool name="mainCamera">true</bool>
+    <bool name="subCamera">true</bool>
+    <bool name="simCard">true</bool>
+    <bool name="simSignal">false</bool>
+    <bool name="fm">true</bool>
+    <bool name="calibration">true</bool>
+    <bool name="tdCode">true</bool>
+    <bool name="flash">true</bool>
+    <bool name="torch">true</bool>
+    <bool name="proactiveFlash">false</bool>
+    <bool name="buttonLight">false</bool>
+    <bool name="hall">false</bool>
+    <bool name="otg">true</bool>
+    <bool name="gyroscope">false</bool>
+    <bool name="magnetic">false</bool>
+    <bool name="notificationLight">false</bool>
+    <bool name="lcdBlur">true</bool>
+    <bool name="gravitySensorNoZAxis">false</bool>
+    <bool name="fingerprint">true</bool>
+    <bool name="remove_recent_key">false</bool>
+    <bool name="ito">false</bool>
+    <bool name="step_counter">false</bool>
+
+    <integer name="ap_cfg_reeb_product_info_lid">61</integer>
+    <integer name="ap_cfg_rdeb_file_wifi_lid">55</integer>
+    <integer name="ap_cfg_custom_file_gps_lid">52</integer>
+    <bool name="defaultEnglish">true</bool>
+
+    <bool name="open_usb_debuuging">false</bool>
+    <bool name="simCardHot">false</bool>
+</resources>
